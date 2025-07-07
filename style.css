@@ -73,6 +73,14 @@ a {
     padding: 1rem;
 }
 
+.card--game__image {
+    flex: 2;
+}
+
+.card--game__description {
+    flex: 3;
+}
+
 .card-group--repos {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -107,7 +115,7 @@ a {
 
 .card img {
     border-radius: 8pt;
-    width: 140px;
+    width: 100%;
     height: auto;
 }
 
