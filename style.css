@@ -105,7 +105,7 @@ a {
     transform: scale(1.05);
 }
 
-.card a {
+.card .cardlink {
     position: absolute;
     top: 0;
     left: 0;
