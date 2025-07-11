@@ -6,10 +6,6 @@ body {
     font-family: "Noto Sans", sans-serif;
 }
 
-p {
-    margin: 0rem;
-}
-
 h1 {
     margin-top: 0rem;
     margin-bottom: 1rem;
@@ -24,7 +20,7 @@ h2 {
 
 h3 {
     margin-top: 0rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     font-size: 1.2rem;
 }
 
@@ -39,8 +35,8 @@ a {
 
 .socials-group {
     display: flex;
-    gap: 1rem;
-    margin: 1rem 0
+    gap: 2rem;
+    margin: 1rem 0;
 }
 
 .socials-group img {
@@ -98,6 +94,7 @@ a {
 
 .card p {
     color: #afafaf;
+    margin: 0.5rem 0;
     font-size: 0.9rem;
 }
 
@@ -155,17 +152,20 @@ a {
 
 .experience__position {
     font-style: italic;
-}
-
-.experience p {
+    margin-bottom: 1rem;
     color: #afafaf;
-    font-size: 0.9rem;
 }
 
 .experience ul {
-    margin-top: 0.5rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.45rem;
     padding-left: 1.2rem;
     font-size: 0.9rem;
+}
+
+.experience ul ul {
+    color: #afafaf;
+    list-style-type: "\2013  ";
 }
 
 .taglist span {
