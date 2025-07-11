@@ -7,7 +7,7 @@ function addCard(repo) {
     const card = document.createElement("div");
     card.className = "card card--repo";
     card.innerHTML = `
-    <a href="${repo.html_url}" target="_blank"><span></span></a>
+    <a class="cardlink" href="${repo.html_url}" target="_blank"><span></span></a>
         <h3>${repo.name}</h3>
         <p>${repo.description}</p>
         `;
